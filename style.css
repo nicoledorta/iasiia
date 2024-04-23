@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Kdam Thmor Pro";
+    src: url(fonts/KdamThmorPro-Regular.ttf);
+}
+
+:root {
+    --roxo-iasiia: #45217D;
+    --laranja-iasiia: #1B1D67;
+    --ciano-iasiia: #28E7C5;
+}
+
+/* Reset CSS */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+.banner {
+
+}
+
+.banner-img {
+    position: relative;
+
+
+
+}
+
+header {
+    height: 200px;
+}
+
+header img {
+    width: 120px;
+}
+
+header .container-grid {
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu a {
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro";
+
+    color: var(--roxo-iasiia);
+
+    text-decoration: none;
+}
+
