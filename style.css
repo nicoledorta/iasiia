@@ -3,6 +3,11 @@
     src: url(fonts/KdamThmorPro-Regular.ttf);
 }
 
+@font-face {
+    font-family: "DM Sans";
+    src: url(fonts/DMSans_18pt-Regular.ttf);
+}
+
 :root {
     --roxo-iasiia: #45217D;
     --laranja-iasiia: #1B1D67;
@@ -11,7 +16,7 @@
 
 /* Reset CSS */
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 
@@ -22,21 +27,16 @@ html {
 }
 
 .container-grid {
-    width: 80%;
+    width: 75%;
     max-width: 1400px;
 
     margin: 0 auto;
 }
 
-.banner {
+.cabecalho {
+    background-color: #C4FBF1;
 
-}
-
-.banner-img {
-    position: relative;
-
-
-
+    height: 200px;
 }
 
 header {
@@ -44,7 +44,7 @@ header {
 }
 
 header img {
-    width: 120px;
+    width: 250px;
 }
 
 header .container-grid {
@@ -60,7 +60,7 @@ header .container-grid {
 
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .menu a {
@@ -69,6 +69,77 @@ header .container-grid {
 
     color: var(--roxo-iasiia);
 
-    text-decoration: none;
+    text-decoration: underline transparent;
+
+    transition: text-decoration 100ms ease-in-out;
 }
 
+.menu a:hover {
+    text-decoration: underline;
+
+    text-decoration-thickness: 2px;
+}
+
+.conteudo-banner {
+    background-image: url(img/computador.png);
+
+    margin: unset;;
+
+    height: 420px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-banner p {
+    font-size: 40px;
+    font-family: "Kdam Thmor Pro";
+
+    color: #C4FBF1;
+
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: "Kdam Thmor Pro";
+
+    color: #1B1D67;
+
+    background-color: #C4FBF1;
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 5px;
+
+    padding: 3%;
+}
+
+#sobre {
+    height: 800px;
+    padding: 600px 20%;
+}
+
+#sobre h3 {
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro";
+
+    color: #45217D;
+
+    text-align: center;
+
+    padding: 3%;
+}
+
+#sobre p {
+    font-size: 18px;
+    font-family: "DM Sans";
+
+    color: black;
+
+    text-align: justify;
+
+    line-height: 1.5;
+}
