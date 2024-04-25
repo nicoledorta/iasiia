@@ -16,7 +16,7 @@
 
 /* Reset CSS */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -35,8 +35,10 @@ html {
 
 .cabecalho {
     background-color: #C4FBF1;
+    height: 127px;
+    width: 100%;
 
-    height: 200px;
+    margin-top: 40px;
 }
 
 header {
@@ -45,6 +47,8 @@ header {
 
 header img {
     width: 250px;
+
+    padding-bottom: 3%;
 }
 
 header .container-grid {
@@ -72,6 +76,8 @@ header .container-grid {
     text-decoration: underline transparent;
 
     transition: text-decoration 100ms ease-in-out;
+
+    padding-bottom: 4%;
 }
 
 .menu a:hover {
@@ -83,7 +89,7 @@ header .container-grid {
 .conteudo-banner {
     background-image: url(img/computador.png);
 
-    margin: unset;;
+
 
     height: 420px;
     width: 100%;
@@ -106,20 +112,27 @@ h2 {
     font-size: 26px;
     font-family: "Kdam Thmor Pro";
 
+    text-transform: uppercase;
+
     color: #1B1D67;
 
     background-color: #C4FBF1;
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    height: 150px;
+
+    text-align: center;
 
     border-radius: 5px;
-
-    padding: 3%;
 }
 
 #sobre {
     height: 800px;
     padding: 600px 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #sobre h3 {
@@ -130,7 +143,7 @@ h2 {
 
     text-align: center;
 
-    padding: 3%;
+    padding-top: 4%;
 }
 
 #sobre p {
@@ -142,4 +155,8 @@ h2 {
     text-align: justify;
 
     line-height: 1.5;
+
+    padding-top: 3%;
 }
+
+
