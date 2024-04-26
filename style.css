@@ -89,8 +89,6 @@ header .container-grid {
 .conteudo-banner {
     background-image: url(img/computador.png);
 
-
-
     height: 420px;
     width: 100%;
 
@@ -117,12 +115,9 @@ h2 {
     color: #1B1D67;
 
     background-color: #C4FBF1;
-    width: 200px;
-    height: 150px;
+    border-radius: 5px;
 
     text-align: center;
-
-    border-radius: 5px;
 }
 
 #sobre {
@@ -158,5 +153,159 @@ h2 {
 
     padding-top: 3%;
 }
+
+#cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+
+    width: 350px;
+    height: 400px;
+    position: relative;
+
+    background-color: #C4FBF1;
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+
+.card:hover {
+    height: 450px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 600;
+
+    color: #45217D;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: "DM Sans";
+
+    color: black;
+}
+
+.card .img-box {
+    position: absolute;
+    width: 250px;
+    height: auto;
+
+    top: 0px;
+
+    transition: 0.5s;
+}
+
+.card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    padding-top: 2.5%;
+}
+
+.card .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    position: absolute;
+    top: 250px;
+
+    width: 100%;
+    padding: 45px 30px;
+
+    text-align: center;
+    height: 30px;
+
+    overflow: hidden;
+
+    transition: 0.5s;
+}
+
+.card:hover .conteudo {
+    top: 130px;
+    height: 250px;
+}
+
+.card button {
+    background-color: #7337D4;
+    padding: 10px;
+
+    font-family: "DM Sans";
+    font-size: 15px;
+    text-transform: uppercase;
+
+    color: #FFFCF4;
+
+    text-decoration: none;
+
+    cursor: pointer;
+    
+    border-radius: 8px;
+    border: none;
+
+    transition: background-color 300ms ease;
+}
+
+.card button:hover {
+    background-color: #45217D;
+}
+
+.conteudo-banner-2 {
+    background-image: url(img/console.png);
+
+    height: 420px;
+    width: 100%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    padding-left: 80px;
+}
+
+.conteudo-banner-2 p {
+    font-size: 40px;
+    font-family: "Kdam Thmor Pro";
+
+    color: white;
+}
+
+#feedback {
+    gap: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review img {
+    clip-path: circle(50%);
+    width: 100px;
+    height: 100px;
+}
+
 
 
