@@ -135,6 +135,7 @@ h2 {
     font-family: "Kdam Thmor Pro";
 
     color: #45217D;
+    font-weight: 100;
 
     text-align: center;
 
@@ -293,18 +294,205 @@ h2 {
 }
 
 #feedback {
+    padding: 10%;
     gap: 80px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.review img {
+#feedback h2 {
+    text-align: center;
+
+    width: fit-content;
+}
+.review h3 {
+    font-size: 20px;
+    font-family: "Kdam Thmor Pro";
+
+    color: #FFFCF4;
+    font-weight: 100;
+
+    padding-left: 20px;
+
+    background-color: #6D3FB8;
+}
+
+.review p {
+    font-size: 18px;
+    font-family: "DM Sans";
+
+    max-width: 400px;
+    flex-wrap: nowrap;
+}
+
+.icon img {
     clip-path: circle(50%);
     width: 100px;
     height: 100px;
+
+    position: relative;
+    left: 300px;
+}
+
+#contato {
+    padding: 5%;
+    gap: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato form p { 
+    text-decoration: underline;
+    text-decoration-color: #7337D4;
+
+    margin-bottom: 40px;
+}
+
+#contato form {
+    width: 70%;
+    height: 750px;
+
+    margin: 0 auto;
+    padding: 60px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color:#F0F1FA;
+
+    color: black;
+    font-family: "DM Sans";
+    font-size: 18px;
+}
+
+.campo {
+    width: 50%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo-descricao {
+    width: 50%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: black;
+    background-color:#F0F1FA;
+
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+
+    outline: none;
+
+    text-indent: 10px;
+}
+
+.campo-descricao textarea {
+    color: black;
+    background-color:#F0F1FA;
+
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+.campo input,
+.campo-descricao textarea {
+    font-family: "DM Sans";
+    font-size: 15px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: #b4b4b4;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    border: 2px solid #7337D4;
+}
+
+#contato form button {
+    width: 20%;
+    height: 50px;
+
+    background-color: #7337D4;
+    padding: 10px;
+
+    font-family: "DM Sans";
+    font-size: 15px;
+    text-transform: uppercase;
+
+    color: #FFFCF4;
+
+    text-decoration: none;
+
+    cursor: pointer;
+    
+    border-radius: 8px;
+    border: none;
+
+    transition: background-color 300ms ease;
+}
+
+#contato form button:hover {
+    background-color: #45217D;
+}
+
+footer {
+    height: 430px;
+    
+    background-color: #1B1D67;
+}
+
+.footer-bgi {
+    position: relative;
+    top: 135px;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+}
+
+.contatos {
+    font-size: 18px;
+    font-family: "DM Sans";
+    color: white; 
 }
 
 
