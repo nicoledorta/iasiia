@@ -794,6 +794,12 @@ footer img {
 }
 
 @media screen and (max-width: 520px) {
+    nav.menu {
+        width: 100%;
+
+        display: none;
+    }
+
     #sobre {
         margin-top: 50px;
 
@@ -822,10 +828,42 @@ footer img {
     }
 
     .conteudo-banner-2 p {
+        font-size: 18px;
+        padding-bottom: 30px;  
+    }
+
+    #contato form button {
+        width: 50%;
+    }
+
+    .footer-link {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header img {
+        width: 180px;
+
+        margin-bottom: 20px;
+    }
+
+    header svg {
+        width: 35px;
+
+        margin-bottom: 20px;
+    }
+    
+    .conteudo-banner {
+        height: 150px;
+        background-size: cover;
+    }
+
+    #sobre p {
+        font-size: 16px;
+    }
+
+    h2 {
         font-size: 20px;
-        white-space: wrap;
-        
-        
-        margin-left: 55%;
     }
 }
