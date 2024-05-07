@@ -792,3 +792,40 @@ footer img {
         width: 85%;
     }
 }
+
+@media screen and (max-width: 520px) {
+    #sobre {
+        margin-top: 50px;
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #cases {
+        padding-top: 60px;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+    }
+
+    .card .img-box {
+        position: absolute;
+        width: 190px;
+        height: auto;
+    }
+
+    .card .conteudo {
+        position: absolute;
+        top: 200px;
+    }
+
+    .conteudo-banner-2 p {
+        font-size: 20px;
+        white-space: wrap;
+        
+        
+        margin-left: 55%;
+    }
+}
