@@ -672,10 +672,10 @@ footer img {
     .conteudo-banner {
         background-image: url(img/computador.png);
         background-size: cover;
-    
+
         height: 200px;
         width: 100%;
-    
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -734,7 +734,7 @@ footer img {
 
     .conteudo-banner-2 p {
         font-size: 25px;
-        
+
         margin-left: 55%;
     }
 
@@ -829,7 +829,7 @@ footer img {
 
     .conteudo-banner-2 p {
         font-size: 18px;
-        padding-bottom: 30px;  
+        padding-bottom: 30px;
     }
 
     #contato form button {
@@ -853,10 +853,22 @@ footer img {
 
         margin-bottom: 20px;
     }
-    
+
     .conteudo-banner {
         height: 150px;
         background-size: cover;
+    }
+
+    .conteudo-banner p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 25px;
+    }
+
+    #sobre {
+        margin-top: 100px;
     }
 
     #sobre p {
@@ -865,5 +877,86 @@ footer img {
 
     h2 {
         font-size: 20px;
+    }
+
+    .conteudo-banner-2 {
+        background-image: url(img/banner\ cell.png);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-banner-2 p {
+        color: transparent;
+
+    }
+
+    #feedback {
+        padding-left: 0;
+        padding-right: 0;
+
+        margin-bottom: 100px;
+    }
+
+    .review h3 {
+        font-size: 18px;
+
+        padding-left: 20px;
+
+    }
+
+    .review p {
+        font-size: 16px;
+    }
+
+    .icon img {
+        clip-path: circle(50%);
+        width: 80px;
+        height: 80px;
+
+        position: relative;
+        left: 230px;
+        top: 15px;
+    }
+
+    .estrela img {
+        width: 150px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    #contato {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-list p,
+    h3 {
+        font-size: 16px;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    #footer-content {
+        padding-left: 35px;
+    }
+
+    .footer-list {
+        padding-left: 60px;
+    }
+
+    footer img {
+        top: 25rem;
+        left: 45px;
+    }
+
+    #footer-icons {
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 30px;
     }
 }
