@@ -1,0 +1,16 @@
+{
+    "solicitacoes": [
+        {
+            "id": "c9cd",
+            "nome": "Thais Almeida",
+            "email": "almeidathais@email.com",
+            "descricao": "Não consigo manter os clientes ativos na plataforma de compras online da loja. "
+        },
+        {
+            "id": "d307",
+            "nome": "Rodrigo Oliveira",
+            "email": "rodrigoliveira@email.com",
+            "descricao": "Meus funcionários estão desmotivados, o que afeta o desempenho deles e da minha empresa."
+        }
+    ]
+}
